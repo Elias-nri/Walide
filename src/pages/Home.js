@@ -1,8 +1,9 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Home =() =>{
     return (
-        <p>home</p>
+        <><Navigation /><p>home</p></>
     )
 }
 
