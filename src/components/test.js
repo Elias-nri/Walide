@@ -1,6 +1,6 @@
 import React from "react";
 
-function test () {
+const test =() =>{
     return <h1>test</h1>
 }
 
