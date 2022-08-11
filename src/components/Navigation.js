@@ -8,7 +8,7 @@ const Navigation = () =>{
         <div className="navigation">
             <Navbar bg='light' expand="lg">
                 <Nav className="me-auto">
-                    <Nav.Link href="/"><img src={Logo}/></Nav.Link>
+                    <Nav.Link href="/"><img src={Logo} alt="Logo projet"/></Nav.Link>
                 </Nav>
             </Navbar>
         </div>
