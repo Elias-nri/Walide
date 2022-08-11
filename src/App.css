@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.navigation1{
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);
+  background: rgb(200, 221, 197);
+  height: 100%;
+}
+
+.sidebar{
+  background: rgb(125, 195, 165);
+  height: 100%;
+  position: fixed;
+}
+
+
+
