@@ -11,13 +11,17 @@ const Home = () => {
             <Navigation />
             <Profil/>
             <div className="titre">
+                <h1>Cours mis en avant</h1>
                 <Container>
                 <Row>
-                    <Col xs={6} md={8} lg={6}>
-                        xs=12 md=8
+                    <Col xs={6} md={4}>
+                    xs=6 md=4
                     </Col>
-                    <Col xs={6} md={4} lg={6}>
-                        xs=6 md=4
+                    <Col xs={6} md={4}>
+                    xs=6 md=4
+                    </Col>
+                    <Col xs={6} md={4}>
+                    xs=6 md=4
                     </Col>
                 </Row>
                 {/* <Row lg md xs="4">
