@@ -4,13 +4,15 @@ import '../App.css';
 import { Row, Col, Container } from "react-bootstrap";
 import Navigation from "../components/Navigation";
 import Profil from "../components/Profil";
+import Profileleve from "../components/Profil eleve";
+import Profilprof from "../components/Profil proffesseur";
 
 const Home = () => {
     return (
         <div>
             <Navigation />
             <div style={{display:"flex"}}>
-                <Profil/>
+                <Profilprof/>
                 <div className="titre">
                     <h1>Cours mis en avant</h1>
                     <Container>
