@@ -9,7 +9,7 @@ const Navigation = () =>{
         <div className="navigation1">
             <Navbar expand="lg">
                 <Nav className="me-auto">
-                    <Nav.Link href="/"><img src={Logo} height='75px' alt=""/></Nav.Link>
+                    <Nav.Link href="/"><img src={Logo} height='50em' alt=""/></Nav.Link>
                 </Nav>
             </Navbar>
         </div>

@@ -40,15 +40,40 @@
 .navigation1{
   box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);
   background: rgb(200, 221, 197);
-  height: 100%;
 }
 
 .sidebar{
   background: rgb(125, 195, 165);
-  height: 100%;
-  position: fixed;
+  min-height: 100vh;
+  padding: 1%;
+  width:  18em;
+}
+
+.sidebar1{
+  background: #4F9979;
+  padding: 3%;
+  border-radius: 3%;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.3);   
+}
+
+.titre{
+  width:100%;
   padding: 1%;
 }
 
+.bloc{
+  background-color: #E7E7E7;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.progbar{
+  border: solid 1px black;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #C2DBC3,#7EC3A6);
+}
 
 

@@ -9,31 +9,38 @@ const Home = () => {
     return (
         <div>
             <Navigation />
-            <Profil/>
-            <div className="titre">
-                <h1>Cours mis en avant</h1>
-                <Container>
-                <Row>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                </Row>
-                {/* <Row lg md xs="4">
-                    <Col xs md lg="1" style={{backgroundColor: 'yellow',}}>
-                        <p>Garage</p>
-                    </Col>
-                    <Col xs md lg="11"style={{backgroundColor: 'yellow',}}>
-                        <p>Maison</p>
-                    </Col>
-                </Row> */}
-                </Container>
-            </div>
+            <div style={{display:"flex"}}>
+                <Profil/>
+                <div className="titre">
+                    <h1>Cours mis en avant</h1>
+                    <Container>
+                    <Row>
+                        <Col xs={6} md={3} className="bloc">
+                        <h5>Réseau IP</h5>
+                        <h6>Antoine sewerin</h6>
+                        <div className="progbar">
+                            <h7>100%</h7>
+                        </div>
+                        </Col>
+                        <Col xs={6} md={3} className="bloc">
+                        <h5>UX/UI</h5>
+                        <h6>Gautier delache</h6>
+                        <div className="progbar">
+                            <h7>100%</h7>
+                        </div>
+                        </Col>
+                        <Col xs={6} md={3} className="bloc">
+                        <h5>Gamification</h5>
+                        <h6>Jacques rossard</h6>
+                        <div className="progbar">
+                            <h7>100%</h7>
+                        </div>
+                        </Col>
+                    </Row>
+                    
+                    </Container>
+                </div>
+            </div>  
         </div>
 
     )
