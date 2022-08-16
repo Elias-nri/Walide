@@ -11,8 +11,8 @@ const Profilprof = () =>{
             </aside>
             <aside className="sidebar1">
                 <h5>ING4 OCRES TD4</h5>
-                <p>Pierre Badault<br>
-                </br>Joé Lhuerre</p>
+                <a href="/Pageetudiant">Pierre Badault</a><br>
+                </br><p>Joé Lhuerre</p>
             </aside>
         </div>
         

@@ -129,3 +129,19 @@ form div > input, form div > select, form div > textarea{
   text-decoration: none;
 }
 
+.blocCom{
+  background-color: #E7E7E7;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.boutonenregistrement{
+  border: solid 1px black;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  background: #7EC3A6;
+  text-align: right;
+  padding: 0.3%;
+}
+
