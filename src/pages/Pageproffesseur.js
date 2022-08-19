@@ -2,40 +2,35 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Row, Col, Container } from "react-bootstrap";
-import Navigation from "../components/Navigation";
-import Profil from "../components/Profil";
-import Profileleve from "../components/Profil eleve";
+import NavigationProf from "../components/Navigation prof";
 import Profilprof from "../components/Profil proffesseur";
 
-const Home = () => {
+const Pageprof = () => {
     return (
         <div>
-            <Navigation />
+            <NavigationProf />
             <div style={{display:"flex"}}>
                 <Profilprof/>
                 <div className="titre">
-                    <h1>Cours mis en avant</h1>
+                    <h1>Accueil</h1>
                     <Container>
                     <Row>
                         <Col xs={6} md={3} className="bloc">
-                        <h5>Réseau IP</h5>
-                        <h6>Antoine sewerin</h6>
+                        <h4>Validation de compétence</h4>
                         <div className="progbar">
-                            <h7>100%</h7>
+                            <a href="/Creationcours"><h7>Suivant</h7></a>  
                         </div>
                         </Col>
                         <Col xs={6} md={3} className="bloc">
-                        <h5>UX/UI</h5>
-                        <h6>Gautier delache</h6>
+                        <h4>Création de cours</h4>
                         <div className="progbar">
-                            <h7>100%</h7>
+                            <h7>Suivant</h7>
                         </div>
                         </Col>
                         <Col xs={6} md={3} className="bloc">
-                        <h5>Gamification</h5>
-                        <h6>Jacques rossard</h6>
+                        <h4>A trouver</h4>
                         <div className="progbar">
-                            <h7>100%</h7>
+                            <h7>Suivant</h7>
                         </div>
                         </Col>
                     </Row>
@@ -48,4 +43,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Pageprof;
