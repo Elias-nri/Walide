@@ -27,7 +27,7 @@ const Appreciationetudiant = () => {
                                             <textarea className="zonetexte"/>
                                         </label>
                                     </div>
-                                    <div>
+                                    <div style={{textAlign: "right"}}>
                                         <button type="submit" className="boutonenregistrement">Enregistrer</button>
                                     </div>
                                 </div>

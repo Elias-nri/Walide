@@ -100,6 +100,7 @@
   border-radius: 20px;
   background: linear-gradient(to right, #C2DBC3,#7EC3A6);
   padding: 0.3%;
+  width: 100%;
 }
 
 .boutonajout{
@@ -120,8 +121,10 @@ form div > input, form div > select, form div > textarea{
 }
 
 .profilprof{
-  position: relative;
-  text-align: right; 
+  display: flex;
+}
+.pProfilProf p{
+  margin-bottom: 0rem;
 }
 
 .container a {
@@ -142,6 +145,17 @@ form div > input, form div > select, form div > textarea{
   border-radius: 20px;
   background: #7EC3A6;
   text-align: right;
-  padding: 0.3%;
+  padding-bottom: 1.5em;
+  height: 1.5em;
+  font-size: 0.8em;
 }
 
+.navbar-nav{
+  flex-direction: inherit;
+  width: 100%;
+  justify-content: space-between;
+}
+
+label{
+  width: 100%;
+}

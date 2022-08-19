@@ -12,7 +12,10 @@ const NavigationProf = () =>{
                 <Nav>
                     <Nav.Link href="/"><img src={Logo} height='50em' alt=""/></Nav.Link>
                     <div className="profilprof">
-                        <p>Gautier Delache</p>
+                    <div className="pProfilProf">
+                        <p>Gautier</p>
+                        <p>Delache</p>
+                    </div>
                         <img src={Gautier} height='50em' alt=""/>
                     </div>
                 </Nav>

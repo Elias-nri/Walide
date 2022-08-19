@@ -3,14 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Row, Col, Container } from "react-bootstrap";
 import NavigationProf from "../components/Navigation prof";
-import Profilprof from "../components/Profil proffesseur";
+import MenuDeroulant from "../components/Profil proffesseur";
 
 const Pageprof = () => {
     return (
         <div>
             <NavigationProf />
             <div style={{display:"flex"}}>
-                <Profilprof/>
+                <MenuDeroulant/>
                 <div className="titre">
                     <h1>Accueil</h1>
                     <Container>
