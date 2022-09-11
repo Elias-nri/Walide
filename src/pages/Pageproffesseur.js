@@ -18,19 +18,14 @@ const Pageprof = () => {
                         <Col xs={6} md={3} className="bloc">
                         <h4>Validation de compétence</h4>
                         <div className="progbar">
-                            <a href="/Creationcours"><h7>Suivant</h7></a>  
+                            <h7>Suivant</h7>
                         </div>
                         </Col>
                         <Col xs={6} md={3} className="bloc">
                         <h4>Création de cours</h4>
                         <div className="progbar">
-                            <h7>Suivant</h7>
-                        </div>
-                        </Col>
-                        <Col xs={6} md={3} className="bloc">
-                        <h4>A trouver</h4>
-                        <div className="progbar">
-                            <h7>Suivant</h7>
+                            <a href="/Creationcours"><h7>Suivant</h7></a>
+                            
                         </div>
                         </Col>
                     </Row>
